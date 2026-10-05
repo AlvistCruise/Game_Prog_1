@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -11,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Coin
   - 
   - 
   - 
@@ -42,13 +44,19 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Ground
-    uniqueID: 3524871863
+    uniqueID: 2560387653
     locked: 0
-  - name: Object
-    uniqueID: 1944600491
+  - name: Object_Tree
+    uniqueID: 488688495
     locked: 0
-  - name: Characters
-    uniqueID: 4059992165
+  - name: Sea
+    uniqueID: 717267345
+    locked: 0
+  - name: Collectible
+    uniqueID: 2170268913
+    locked: 0
+  - name: Character
+    uniqueID: 2799953781
     locked: 0
   m_RenderingLayers:
   - Default
