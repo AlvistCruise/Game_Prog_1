@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - CanBePickUp
   - Enemy
-  - Collectible
   layers:
   - Default
   - TransparentFX
@@ -13,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Enemy
-  - Coin
+  - Consumable
+  - Enemies
+  - Blocking
   - 
   - 
   - 
@@ -52,8 +52,8 @@ TagManager:
   - name: Sea
     uniqueID: 717267345
     locked: 0
-  - name: Collectible
-    uniqueID: 2170268913
+  - name: Objects
+    uniqueID: 67148349
     locked: 0
   - name: Character
     uniqueID: 2799953781
